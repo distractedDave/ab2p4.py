@@ -1,6 +1,6 @@
 
 Purpose:
-    To mirror all the changes from a Perforce(SCM) server to the AlienBrain server,
+    To mirror all the changes from an AlienBrain server to a Perforce(SCM) server,
 tasks include one-time database migration and later changelist(ChangeSet) sync.  
     This project tends to wrap the 'ab.exe' command and 'p4api', rather than being a batch
 processing. Since not all the SCM actions will be used in migration, so the code is only
@@ -9,7 +9,7 @@ useful for simple migration, for now, a feature request I have to get done.(See 
 and do some API design exercises.
 
 Project Hosting:
-http://github.com/realalien/p42ab.py/
+http://github.com/distractedDave/ab2p4.py/
 
 
 Notice:
@@ -23,7 +23,7 @@ Notice:
 
 
 Bug Tracking:
-http://github.com/realalien/p42ab.py/issues
+http://github.com/distractedDave/ab2p4.py/issues
 
 
 Progress:
@@ -36,7 +36,7 @@ How-to:
 
 
 Reference:
-
+* https://github.com/realalien/p42ab.py Insperational Core Work
 * 'Perforce 2009.1 APIs for Scripting' P103 # p4.run handling.
 * p42svn 
 * http://code.google.com/p/python-p4lib/
